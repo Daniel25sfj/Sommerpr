@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="no">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Planetur  Planeter og galleri</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script src="script.js" defer></script>
+
+    
+    <nav class="navbar">
+      <div class="logo">Planetur</div>
+      <ul>
+        <li><a href="#gallery">Bildegalleri</a></li>
+        <li><a href="#carousel">Kontakt</a></li>
+        <li><a href="#">Fakta</a></li>
+      </ul>
+      <div class="get-started">Nyheter</div>
+    </nav>
+
+    
+    <section class="carousel-container" id="carousel">
+      <h1>PLANETENE!</h1>
+      <p>Explore all the planets in our solar system.</p>
+      <div class="carousel">
+        <button class="carousel-btn prev">&#10094;</button>
+        <div class="carousel-track">
+          
+          <div class="planet"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mercury_in_color_-_Prockter07_centered.jpg/250px-Mercury_in_color_-_Prockter07_centered.jpg" alt="Mercury"><span>Mercury</span></div>
+          <div class="planet"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg" alt="Venus"><span>Venus</span></div>
+          <div class="planet"><img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Earth"><span>Earth</span></div>
+          <div class="planet"><img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" alt="Mars"><span>Mars</span></div>
+          <div class="planet"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg" alt="Jupiter"><span>Jupiter</span></div>
+          <div class="planet"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Saturn_PIA06077.jpg/250px-Saturn_PIA06077.jpg" alt="Saturn"><span>Saturn</span></div>
+          <div class="planet"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg" alt="Uranus"><span>Uranus</span></div>
+          <div class="planet"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg" alt="Neptune"><span>Neptune</span></div>
+        </div>
+        <button class="carousel-btn next">&#10095;</button>
+      </div>
+    </section>
+
+
+   <div style="height: 600px;"></div>
+    <section class="gallery-section" id="gallery">
+      <h1>Bildegalleri</h1>
+      <p>Se flotte bilder av planetene i solsystemet.</p>
+      <div class="gallery-grid">
+      
+        <div class="gallery-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Mercury_in_color_-_Prockter07_centered.jpg/250px-Mercury_in_color_-_Prockter07_centered.jpg" alt="Mercury"><span>Mercury</span></div>
+        <div class="gallery-item"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg" alt="Venus"><span>Venus</span></div>
+        <div class="gallery-item"><img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Earth"><span>Earth</span></div>
+        <div class="gallery-item"><img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" alt="Mars"><span>Mars</span></div>
+        <div class="gallery-item"><img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg" alt="Jupiter"><span>Jupiter</span></div>
+        <div class="gallery-item"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Saturn_PIA06077.jpg/250px-Saturn_PIA06077.jpg" alt="Saturn"><span>Saturn</span></div>
+        <div class="gallery-item"><img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg" alt="Uranus"><span>Uranus</span></div>
+        <div class="gallery-item"><img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg" alt="Neptune"><span>Neptune</span></div>
+      </div>
+    </section>
+
+    <div id="modal" class="modal">
+      <span class="modal-close">&times;</span>
+      <img class="modal-content" id="modal-img">
+      <div id="modal-caption"></div>
+    </div>
+  </body>
+</html>
